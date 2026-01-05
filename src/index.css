@@ -1,1 +1,80 @@
 @import "tailwindcss";
+
+*{
+    /* outline: solid lime 1px; */
+}
+
+
+@font-face {
+    font-family: raptor-regular;
+    src: url('./assets/fonts/RaptorV3Premium-Regular.otf');
+}
+@font-face {
+    font-family: raptor-medium;
+    src: url('./assets/fonts/RaptorV3Premium-Medium.otf');
+}
+@font-face {
+    font-family: raptor-bold;
+    src: url('./assets/fonts/RaptorV3Premium-Bold.otf');
+}
+@font-face {
+    font-family: raptor-black;
+    src: url('./assets/fonts/RaptorV3Premium-Black.otf');
+}
+
+@theme{
+--color-primary-50: #eef5f7;
+--color-primary-100: #ddeaee;
+--color-primary-200: #bbd6dd;
+--color-primary-300: #98c1cd;
+--color-primary-400: #76adbc;
+--color-primary-500: #5498ab;
+--color-primary-600: #437a89;
+--color-primary-700: #325b67;
+--color-primary-800: #223d44;
+--color-primary-900: #111e22;
+--color-primary-950: #0c1518;
+
+--color-secondary-50: #f9ebeb;
+--color-secondary-100: #f4d7d8;
+--color-secondary-200: #e9afb0;
+--color-secondary-300: #dd8889;
+--color-secondary-400: #d26062;
+--color-secondary-500: #c7383a;
+--color-secondary-600: #9f2d2f;
+--color-secondary-700: #772223;
+--color-secondary-800: #501617;
+--color-secondary-900: #280b0c;
+--color-secondary-950: #1c0808;
+
+--color-accent-50: #fbf4e9;
+--color-accent-100: #f8e9d3;
+--color-accent-200: #f1d3a7;
+--color-accent-300: #eabe7b;
+--color-accent-400: #e2a850;
+--color-accent-500: #db9224;
+--color-accent-600: #af751d;
+--color-accent-700: #845815;
+--color-accent-800: #583a0e;
+--color-accent-900: #2c1d07;
+--color-accent-950: #1f1405;
+
+--color-text-50: #fffbe5;
+--color-text-100: #fff7cc;
+--color-text-200: #fff099;
+--color-text-300: #ffe866;
+--color-text-400: #ffe033;
+--color-text-500: #ffd900;
+--color-text-600: #ccad00;
+--color-text-700: #998200;
+--color-text-800: #665700;
+--color-text-900: #332b00;
+--color-text-950: #241e00;
+
+
+
+--font-raptor-regular : raptor-regular;
+--font-raptor-medium : raptor-medium;
+--font-raptor-bold : raptor-bold;
+--font-raptor-black : raptor-black;
+}
